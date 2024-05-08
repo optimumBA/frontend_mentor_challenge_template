@@ -8,7 +8,6 @@ module.exports = {
         'pale-violet': 'hsl(276, 100%, 81%)',
         'moderate-violet': 'hsl(276, 55%, 52%)',
         'desat-dark-violet': 'hsl(271, 15%, 43%)',
-        'very-dark-desat-violet': 'hsl(271, 36%, 24%)',
         'dark-grayish-violet': 'hsl(270, 7%, 64%)',
         'grayish-blue': 'hsl(206, 6%, 79%)',
         'light-magenta': 'hsl(293, 100%, 63%)',
