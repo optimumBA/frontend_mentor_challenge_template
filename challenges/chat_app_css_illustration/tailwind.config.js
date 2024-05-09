@@ -18,7 +18,7 @@ module.exports = {
         'very-light-magenta': 'hsl(289, 100%, 72%)',
       },
       fontFamily: {
-        base: ['Rubik', 'sans-serif'],
+        rubik: ['Rubik', 'sans-serif'],
       },
     },
   },
