@@ -17,6 +17,7 @@
     "tailwindcss": "^3.0.22"
   },
   "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css --watch",
     "build": "node scripts/build.js",
     "check-formatting": "npx prettier -c .",
     "format": "npx prettier -w .",
