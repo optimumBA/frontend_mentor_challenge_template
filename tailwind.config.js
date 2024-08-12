@@ -7,12 +7,12 @@ module.exports = {
         'optimum-darkblue': '#0389e1',
       },
       fontFamily: {
-        karla: ['Karla'],
+        outfit: ['Outfit'],
       },
       fontWeight: {
         light: 200,
         regular: 400,
-        bold: 800,
+        bold: 700,
       },
     },
   },
