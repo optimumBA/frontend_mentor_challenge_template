@@ -35,15 +35,17 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-[#0a0b1c]">
+  <body
+    class="relative flex h-[100vh] w-full flex-col items-center justify-center bg-[#0a0b1c] md:items-center"
+  >
     <div
-      class="flex h-[100vh] w-full flex-col items-center justify-center p-10 md:p-0"
+      class="main_div z-40 mt-0 flex h-[100%] w-full flex-col items-center justify-center p-[20px] pt-0 md:mt-0 md:h-auto md:p-0 md:pt-[20px]"
     >
       <div
-        class="md:min-h-72 flex w-auto flex-col gap-4 rounded-lg bg-[#1c1739] md:max-w-4xl md:flex-row md:gap-0"
+        class="flex h-[100%] w-[90%] flex-col gap-4 rounded-lg bg-[#1c1739] pb-4 md:h-auto md:max-w-4xl md:flex-row md:gap-0 md:pb-0"
       >
         <div
-          class="order-2 flex h-[40%] w-[100%] flex-col gap-4 p-4 md:order-1 md:h-[100%] md:w-[50%] md:gap-6 md:p-10"
+          class="order-2 flex w-[100%] flex-col gap-4 p-2 md:order-1 md:h-[100%] md:w-[50%] md:gap-6 md:p-10"
         >
           <div
             class="font-inter w-[100%] text-center text-2xl font-bold tracking-wide text-white md:text-left md:text-3xl"
@@ -52,7 +54,7 @@
             business grow.
           </div>
           <div
-            class="font-inter w-[100%] text-center text-lg font-light text-[#7d7a94] md:text-left md:text-sm"
+            class="font-inter w-[100%] text-center text-base font-light text-[#7d7a94] md:text-left md:text-sm"
           >
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
@@ -93,12 +95,12 @@
         </div>
 
         <div
-          class="relative order-1 h-[40%] w-[100%] overflow-hidden rounded-lg md:order-2 md:h-[100%] md:w-[50%]"
+          class="relative order-1 h-[30%] w-[100%] overflow-hidden rounded-t-lg md:order-2 md:h-[100%] md:w-[50%] md:rounded-r-lg md:rounded-tl-none"
         >
           <img
             src="images/image1.jpg"
             alt="Description of image"
-            class="h-full w-full rounded-r-lg object-cover"
+            class="h-full w-full rounded-t-lg rounded-t-lg object-cover md:rounded-r-lg md:rounded-tl-none"
           />
 
           <div class="absolute inset-0 bg-[#60327f] opacity-70"></div>
@@ -108,29 +110,29 @@
           ></div>
         </div>
       </div>
-      <div class="font-inter mt-2 py-3 text-sm">
-        <p>
-          <a
-            class="font-bold text-blue-500"
-            rel="noopener"
-            href=" https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62"
-            >Frontend Mentor challenge</a
-          >
-          for
-          <a class="font-bold text-blue-500" href="https://github.com/optimumBA"
-            >Optimum BH</a
-          >
-          Internship
-        </p>
-        <p class="text-center underline">
-          <a
-            class="font-bold text-blue-500"
-            rel="noopener"
-            href="https://github.com/mbashia/frontend_mentor_challenges/tree/stats_preview_card_component/challenges/stats_preview_card_component"
-            >Source code</a
-          >
-        </p>
-      </div>
+    </div>
+    <div class="info_div font-inter absolute z-0 ml-8 mt-2 py-3 text-xs">
+      <p>
+        <a
+          class="font-bold text-blue-500"
+          rel="noopener"
+          href=" https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62"
+          >Frontend Mentor challenge</a
+        >
+        for
+        <a class="font-bold text-blue-500" href="https://github.com/optimumBA"
+          >Optimum BH</a
+        >
+        Internship
+      </p>
+      <p class="text-center underline">
+        <a
+          class="font-bold text-blue-500"
+          rel="noopener"
+          href="https://github.com/mbashia/frontend_mentor_challenges/tree/stats_preview_card_component/challenges/stats_preview_card_component"
+          >Source code</a
+        >
+      </p>
     </div>
   </body>
 </html>
