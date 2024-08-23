@@ -12,7 +12,7 @@ module.exports = {
         'dark-blue': 'hsl(223, 47%, 23%)',
       },
       fontFamily: {
-        red_hat: ['Red Hat Display'],
+        red_hat: ['Red Hat Display', 'sans-serif'],
       },
       fontWeight: {
         extra_light: 200,
