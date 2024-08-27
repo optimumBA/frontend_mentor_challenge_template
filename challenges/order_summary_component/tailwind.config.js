@@ -15,9 +15,7 @@ module.exports = {
         red_hat: ['Red Hat Display', 'sans-serif'],
       },
       fontWeight: {
-        extra_light: 200,
         regular: 500,
-        light: 400,
         bold: 700,
         extra_bold: 900,
       },
