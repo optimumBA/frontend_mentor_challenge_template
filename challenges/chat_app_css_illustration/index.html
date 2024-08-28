@@ -25,38 +25,243 @@
       sizes="16x16"
       href="../images/favicon-16x16.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="manifest" href="../site.webmanifest" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="m-0">
+  <body class="bg-[#fafafa]">
     <div
-      class="flex h-[100vh] w-full flex-col place-content-center text-center"
+      class="flex h-[100vh] w-screen flex-col overflow-y-scroll md:w-full md:flex-row md:overflow-y-auto"
     >
-      <div>
-        <a
-          class="text-optimum-blue hover:text-optimum-darkblue"
-          href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY"
-          target="_blank"
-          >Frontend Mentor challenge</a
+      <div class="flex h-[85%] w-[100%] flex-row md:h-auto md:w-[50%]">
+        <div class="w-[600px] md:w-[65%]">
+          <div
+            class="-ml-32 h-[80%] w-[100%] rounded-b-[250px] bg-gradient-to-b from-[#bf31ff] to-[#9322ff] md:-ml-10 md:h-[90%]"
+          ></div>
+        </div>
+        <div
+          class="-ml-32 flex h-[100%] w-[100%] items-center md:-ml-[6%] md:w-[55%]"
         >
+          <div
+            class="shadow-3xl -ml-28 mt-14 h-[100%] w-[130%] rounded-3xl border bg-white p-3 pb-4 shadow-2xl md:-ml-24 md:mt-0 md:h-[70%] md:w-[100%]"
+          >
+            <div
+              class="relative flex h-[100%] w-[100%] flex-col rounded-2xl bg-[#f5f3f8]"
+            >
+              <div
+                class="absolute -top-2 left-1/2 h-6 w-36 -translate-x-1/2 transform rounded-xl bg-white md:h-8 md:w-44"
+              ></div>
+
+              <div
+                class="from-light-violet to-light-magenta flex h-[13%] w-[100%] items-end justify-between gap-2 rounded-t-2xl bg-gradient-to-r px-1 pt-4 pb-2 md:pt-2"
+              >
+                <div class="flex w-[80%] items-center gap-2">
+                  <div class="text-[white]/70">
+                    <i class="fa fa-chevron-left text-[9px] md:text-sm"></i>
+                  </div>
+                  <img
+                    src="images/avatar.jpg"
+                    class="h-8 w-8 rounded-full border-2 border-white"
+                    alt="victor"
+                  />
+
+                  <div class="flex flex-col">
+                    <span class="font-rubik text-xs font-bold text-white"
+                      >Samuel Green</span
+                    >
+                    <span
+                      class="text-pale-violet font-rubik text-[9px] font-light md:text-xs"
+                      >Available to walk</span
+                    >
+                  </div>
+                </div>
+
+                <div class="w-[10%] text-[white]/50">
+                  <i class="fa fa-ellipsis-v text-[9px] md:text-sm"></i>
+                </div>
+              </div>
+              <div
+                class="flex h-[90%] w-[100%] flex-col gap-2 rounded-b-2xl bg-[#f5f3f8] pb-2 md:h-[85%]"
+              >
+                <div
+                  class="flex h-[25%] w-[100%] flex-col items-start gap-2 p-2"
+                >
+                  <div
+                    class="w-36 rounded-xl bg-[#ede5f4] py-1 px-2 text-xs md:w-48 md:py-2 md:px-4"
+                  >
+                    <span
+                      class="text-moderate-violet font-rubik text-[8px] md:text-xs"
+                    >
+                      That sounds great. I'd be happy to discuss more.</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-36 rounded-xl bg-[#ede5f4] py-1 px-2 text-xs md:w-48 md:py-2 md:px-4"
+                  >
+                    <span
+                      class="text-moderate-violet font-rubik text-[8px] md:text-xs"
+                    >
+                      Could you send over some pictures of your dog,
+                      please?</span
+                    >
+                  </div>
+                </div>
+                <div class="flex h-[30%] w-[100%] flex-col items-end gap-2 p-2">
+                  <div class="flex gap-1">
+                    <img
+                      src="images/dog-image-1.jpg"
+                      class="h-10 w-10 rounded-xl"
+                      alt=""
+                    />
+
+                    <img
+                      src="images/dog-image-2.jpg"
+                      class="h-10 w-10 rounded-xl"
+                      alt=""
+                    />
+
+                    <img
+                      src="images/dog-image-3.jpg"
+                      class="h-10 w-10 rounded-xl"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="w-36 rounded-xl bg-[white] py-1 px-2 text-xs md:w-48 md:py-2 md:px-4"
+                  >
+                    <span
+                      class="text-desaturated-dark-violet font-rubik text-[8px] font-light md:text-xs"
+                    >
+                      Here are some few pictures. She's a happy girl.</span
+                    >
+                  </div>
+                  <div class="rounded-xl bg-[white] py-2 px-4 text-xs">
+                    <span
+                      class="text-desaturated-dark-violet font-rubik text-[8px] font-light md:text-xs"
+                    >
+                      Can you make it.</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex h-[35%] w-[100%] flex-col items-start gap-2 p-2"
+                >
+                  <div
+                    class="w-36 rounded-xl bg-[#ede5f4] py-1 px-2 text-xs md:w-48 md:py-2 md:px-4"
+                  >
+                    <span
+                      class="text-moderate-violet font-rubik text-[8px] md:text-xs"
+                    >
+                      She looks so happy! The time we discussed works. How long
+                      shall I take her out for?</span
+                    >
+                  </div>
+
+                  <div
+                    class="flex w-44 items-center justify-evenly rounded-lg rounded-bl-sm bg-gradient-to-r from-[#bf31ff] to-[#9322ff] py-2 px-2 md:w-52 md:py-2"
+                  >
+                    <div
+                      class="text-pale-violet border-pale-violet h-3 w-3 rounded-full border md:h-4 md:w-4"
+                    ></div>
+                    <div
+                      class="text-pale-violet font-rubik text-[9px] md:text-xs"
+                    >
+                      30 minute walk
+                    </div>
+                    <div
+                      class="font-rubik text-xs font-bold text-white md:text-xl"
+                    >
+                      $29
+                    </div>
+                  </div>
+
+                  <div
+                    class="flex w-44 items-center justify-evenly rounded-lg rounded-bl-sm bg-gradient-to-r from-[#bf31ff] to-[#9322ff] py-2 px-2 md:w-52 md:py-2"
+                  >
+                    <div
+                      class="text-pale-violet border-pale-violet h-3 w-3 rounded-full border md:h-4 md:w-4"
+                    ></div>
+                    <div
+                      class="text-pale-violet font-rubik text-[9px] md:text-xs"
+                    >
+                      1 hour walk
+                    </div>
+                    <div
+                      class="font-rubik text-xs font-bold text-white md:text-xl"
+                    >
+                      $49
+                    </div>
+                  </div>
+                </div>
+                <div class="flex h-[10%] w-[100%] items-center justify-center">
+                  <div
+                    class="font-rubik flex h-[100%] w-[90%] items-center justify-between gap-4 rounded-2xl bg-white px-4 font-light text-[#707070]"
+                  >
+                    <span class="text-grayish-blue text-xs"
+                      >Type a message...</span
+                    >
+                    <div
+                      class="flex h-6 w-6 items-center justify-center rounded-full bg-[#361e4f] text-white"
+                    >
+                      <i class="fa fa-chevron-right text-base"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        for
-        <a
-          class="text-optimum-blue hover:text-optimum-darkblue"
-          href="https://github.com/optimumBA"
-          target="_blank"
-          >Optimum BH</a
+      <div
+        class="booking_div relative z-20 mt-14 flex h-auto w-[100%] items-center justify-start pb-8 md:mt-0 md:h-auto md:w-[60%] md:pb-0"
+      >
+        <div
+          class="z-10 flex w-[100%] flex-col items-center gap-4 px-4 md:items-start md:px-0"
         >
-        Internship.
+          <span
+            class="font-rubik text-very-dark-desaturated-violet text-4xl font-bold"
+            >Simple booking</span
+          >
+          <div
+            class="font-rubik text-dark-grayish-violet max-w-md text-center font-light tracking-wide md:text-left"
+          >
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </div>
+        </div>
       </div>
 
-      <div class="mt-3">
-        <a
-          class="text-optimum-blue hover:text-optimum-darkblue"
-          href="https://github.com/optimumBA/frontend_mentor_challenges/tree/chat_app_css_illustration/challenges/chat_app_css_illustration"
-          >Source code</a
-        >
+      <div
+        class="info_div font-inter absolute top-0 z-0 w-full py-3 text-xs opacity-0"
+      >
+        <p>
+          <a
+            class="font-bold text-blue-500"
+            rel="noopener"
+            href=" https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY"
+            >Frontend Mentor challenge</a
+          >
+          for
+          <a class="font-bold text-blue-500" href="https://github.com/optimumBA"
+            >Optimum BH</a
+          >
+          Internship
+        </p>
+        <p class="text-center underline">
+          <a
+            class="font-bold text-blue-500"
+            rel="noopener"
+            href="https://github.com/mbashia/frontend_mentor_challenges/tree/chat_app_css_illustration/challenges/chat_app_css_illustration"
+            >Source code</a
+          >
+        </p>
       </div>
     </div>
   </body>
