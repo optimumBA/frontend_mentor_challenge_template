@@ -17,6 +17,7 @@ module.exports = {
       },
       fontWeight: {
         regular: 400,
+        normal: 500,
         bold: 700,
       },
       backgroundImage: {
