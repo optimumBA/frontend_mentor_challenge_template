@@ -35,92 +35,88 @@
       rel="stylesheet"
     />
   </head>
-  <body class="m-0">
+  <body class="font-kumbh m-0 max-h-screen bg-[#18A0AC]">
+    <div class="relative">
+      <div
+        class="absolute -top-36 -left-1/4 w-10/12 lg:-top-96 lg:left-0 lg:w-1/2"
+      >
+        <img src="./images/bg-pattern-top.svg" alt="" />
+      </div>
+      <div
+        class="absolute bottom-0 -right-1/4 w-10/12 lg:-bottom-96 lg:-right-24 lg:w-1/2"
+      >
+        <img src="./images/bg-pattern-bottom.svg" alt="" />
+      </div>
+    </div>
+
     <div
-      class="bg-dark-cyan font-kumbh flex h-screen items-center justify-center overflow-hidden"
+      class="relative z-10 flex h-[100vh] w-full flex-col place-content-center items-center justify-center text-center"
     >
-      <div class="absolute z-40 flex flex-col justify-center">
-        <div class="flex w-[330px] flex-col items-center rounded-2xl bg-white">
+      <div class="m-6 max-w-sm rounded-2xl bg-white">
+        <div>
           <img
+            class="block h-40 w-full rounded-t-2xl bg-no-repeat object-cover object-center"
             src="./images/bg-pattern-card.svg"
-            alt="card's parttern"
-            class="rounded-t-2xl"
+            alt=""
           />
-          <div class="flex flex-col items-center">
-            <img
-              src="./images/image-victor.jpg"
-              alt="victor's image"
-              class="-mt-[52px] w-24 rounded-full ring-4 ring-white"
-            />
-            <div class="my-4 flex flex-col items-center">
-              <p class="text-dark-desaturated-blue text-lg font-bold">
-                Victor Crest <span class="text-dark-gray font-normal">26</span>
-              </p>
-              <span class="text-dark-gray bg-white text-sm">London</span>
-            </div>
-          </div>
-
-          <div class="flex w-full border-t"></div>
-
-          <div class="my-5 flex gap-12 text-center">
-            <div>
-              <p class="text-dark-desaturated-blue text-lg font-bold">80k</p>
-              <span class="text-dark-gray text-xs">Followers</span>
-            </div>
-            <div>
-              <p class="text-dark-desaturated-blue text-lg font-bold">803k</p>
-              <span class="text-dark-gray text-xs">Likes</span>
-            </div>
-            <div>
-              <p class="text-dark-desaturated-blue text-lg font-bold">1.4k</p>
-              <span class="text-dark-gray text-xs">Photos</span>
-            </div>
-          </div>
         </div>
-        <div class="mt-8 flex flex-col place-content-center text-center">
-          <div>Front-end development challenges</div>
-          <div>
-            by
-            <a
-              class="text-optimum-blue hover:text-optimum-darkblue"
-              rel="noopener"
-              href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
-              target="_blank"
-              >Frontend Mentor challenge</a
-            >
-          </div>
-          <div>
-            for
-            <a
-              class="text-optimum-blue hover:text-optimum-darkblue"
-              rel="noopener"
-              href="https://github.com/optimumBA"
-              target="_blank"
-              >Optimum BH</a
-            >
-            Internship.
-          </div>
 
-          <div class="mt-3">
-            <a
-              class="text-optimum-blue hover:text-optimum-darkblue"
-              href="https://github.com/mbashia/frontend_mentor_challenges/tree/profile_card_component/challenges/profile_card_component"
-              >Source code</a
-            >
+        <img
+          class="relative m-auto mt-[-50px] block rounded-full border-[5px] border-white"
+          src="./images/image-victor.jpg"
+          alt=""
+        />
+        <h2 class="mt-4 text-xl font-bold text-gray-700">
+          Victor Crest <span class="font-normal text-gray-500">26</span>
+        </h2>
+        <p class="mt-2 text-lg text-gray-500">London</p>
+        <div
+          class="mt-8 flex items-center justify-around border-t-2 border-black border-opacity-10 px-6 py-6"
+        >
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">80K</h3>
+            <p class="text-xs text-gray-700">Followers</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">803K</h3>
+            <p class="text-xs text-gray-700">Likes</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">1.4K</h3>
+            <p class="text-xs text-gray-700">Photos</p>
           </div>
         </div>
       </div>
+      <div class="credits rounded-2xl bg-white p-4">
+        <div>
+          <a
+            class="text-optimum-blue hover:text-optimum-darkblue"
+            href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
+            target="_blank"
+            rel="noopener"
+            >Frontend Mentor challenge</a
+          >
+        </div>
+        <div>
+          for
+          <a
+            class="text-optimum-blue hover:text-optimum-darkblue"
+            href="https://github.com/optimumBA"
+            target="_blank"
+            rel="noopener"
+            >Optimum BH</a
+          >
+          Internship.
+        </div>
 
-      <img
-        src="./images/bg-pattern-top.svg"
-        alt=""
-        class="relative bottom-72 right-16 lg:bottom-96"
-      />
-      <img
-        src="./images/bg-pattern-bottom.svg"
-        alt=""
-        class="relative left-10 top-60 lg:-left-[180px] lg:top-[500px]"
-      />
+        <div class="mt-3">
+          <a
+            class="text-optimum-blue hover:text-optimum-darkblue"
+            href="https://github.com/mbashia/frontend_mentor_challenges/tree/profile_card_component/challenges/profile_card_component"
+            >Source code</a
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
