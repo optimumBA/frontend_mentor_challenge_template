@@ -31,7 +31,6 @@ module.exports = {
       },
     },
   },
-  // test
 
   plugins: [],
   variants: {},
