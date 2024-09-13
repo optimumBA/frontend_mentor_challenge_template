@@ -27,37 +27,105 @@
     />
     <link rel="manifest" href="../site.webmanifest" />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="m-0">
+  <body class="bg-[#e1e7ff]">
     <div
-      class="flex h-[100vh] w-full flex-col place-content-center text-center"
+      class="bg-mobile-pattern md:bg-bottom-pattern flex h-[100vh] w-screen items-center justify-center md:w-full md:bg-[length:100%_auto] md:bg-repeat-x"
     >
-      <div>
+      <div
+        class="md:shadow-bright-blue/20 flex max-w-xs flex-col rounded-2xl shadow-2xl md:max-w-sm md:shadow-xl"
+      >
+        <div class="bg-illustration h-48 rounded-t-2xl"></div>
+        <div
+          class="flex w-[100%] flex-col items-center gap-4 rounded-b-2xl bg-white p-8"
+        >
+          <div class="font-red_hat font-extra_bold text-dark-blue text-xl">
+            Order Summary
+          </div>
+          <div
+            class="font-red_hat text-desaturated-blue font-regular text-center"
+          >
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </div>
+          <div class="flex w-[100%] justify-center rounded-lg bg-[#f8f9fe] p-3">
+            <div class="flex w-[60%] gap-4">
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-full bg-[#e3e6ff]"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+                    <path
+                      fill="#717FA6"
+                      fill-rule="nonzero"
+                      d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="flex flex-col">
+                <span
+                  class="font-red_hat text-dark-blue text-sm font-bold md:text-base"
+                  >Annual Plan</span
+                >
+                <span class="font-red_hat text-desaturated-blue font-regular"
+                  >$59.99/year</span
+                >
+              </div>
+            </div>
+            <div
+              class="font-red_hat text-bright-blue flex w-[40%] cursor-pointer items-center justify-end p-1 text-sm font-bold underline hover:cursor-pointer hover:no-underline active:no-underline"
+            >
+              Change
+            </div>
+          </div>
+          <div class="mt-4 flex w-full flex-col items-center gap-4">
+            <button
+              class="font-red_hat font-extra_bold w-full rounded-lg bg-[#3b00e5] py-2 text-sm text-white shadow-lg shadow-[#6456b9] transition duration-300 ease-in-out hover:cursor-pointer hover:bg-[#6456b9] md:text-base"
+            >
+              Proceed to Payment
+            </button>
+            <div
+              class="font-red_hat font-extra_bold text-desaturated-blue mt-4 transition hover:cursor-pointer"
+            >
+              Cancel Order
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="font-red_hat ml-8 flex w-[90%] flex-col items-center justify-center bg-[#d6e0fe] py-3 text-xs md:bg-transparent"
+    >
+      <p>
         <a
-          class="text-optimum-blue hover:text-optimum-darkblue"
+          class="font-bold text-blue-500"
+          rel="noopener"
           href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"
-          target="_blank"
           >Frontend Mentor challenge</a
         >
-      </div>
-      <div>
         for
-        <a
-          class="text-optimum-blue hover:text-optimum-darkblue"
-          href="https://github.com/optimumBA"
-          target="_blank"
+        <a class="font-bold text-blue-500" href="https://github.com/optimumBA"
           >Optimum BH</a
         >
-        Internship.
-      </div>
-
-      <div class="mt-3">
+        Internship
+      </p>
+      <p class="text-center underline">
         <a
-          class="text-optimum-blue hover:text-optimum-darkblue"
-          href="https://github.com/optimumBA/frontend_mentor_challenges/tree/order_summary_component/challenges/order_summary_component"
+          class="font-bold text-blue-500"
+          rel="noopener"
+          href="https://github.com/mbashia/frontend_mentor_challenges/tree/order_summary_component/challenges/order_summary_component"
           >Source code</a
         >
-      </div>
+      </p>
     </div>
   </body>
 </html>
