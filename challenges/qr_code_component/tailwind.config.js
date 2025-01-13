@@ -6,6 +6,10 @@ module.exports = {
         'optimum-blue': '#009efc',
         'optimum-darkblue': '#0389e1',
       },
+
+      backgroundColor: {
+        'custom-grey': 'hsl(212, 45%, 89%)',
+      },
     },
   },
   plugins: [],
