@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.color_qr_code_text {
+  color: hsl(216, 15%, 48%);
+  font-size: 14px;
+}
+
+/* font-optical-sizing to none */
+.font_outfit {
+  font-family: 'Outfit', serif;
+  font-optical-sizing: none;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+}
