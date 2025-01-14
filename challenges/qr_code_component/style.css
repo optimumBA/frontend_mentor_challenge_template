@@ -9,7 +9,7 @@
   font-size: 14px;
 }
 
-/* font-optical-sizing */
+/* font-optical-sizing to none */
 .font_outfit {
   font-family: 'Outfit', serif;
   font-optical-sizing: none;
