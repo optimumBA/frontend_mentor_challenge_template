@@ -20,7 +20,7 @@ module.exports = {
         'custom-violet': 'hsl(277, 64%, 61%)',
       },
     },
-    plugins: [],
-    variants: {},
   },
+  plugins: [],
+  variants: {},
 }

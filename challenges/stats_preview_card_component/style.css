@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.center_element {
+.center-element {
   margin: 0 auto;
 }
 
@@ -23,6 +23,6 @@
   font-style: normal;
 }
 
-.limit_character {
+.limit-character {
   max-width: 30ch;
 }
