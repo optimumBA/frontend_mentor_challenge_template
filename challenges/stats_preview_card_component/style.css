@@ -26,3 +26,11 @@
 .limit-character {
   max-width: 30ch;
 }
+
+.width-87 {
+  width: 87%;
+}
+
+.custom-font-size {
+  font-size: 1.75rem;
+}
