@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+.mobile-width {
+  width: 350px;
+}
+
 .inter-font {
   font-family: 'Inter', serif;
   font-optical-sizing: none;
@@ -25,10 +29,6 @@
 
 .limit-character {
   max-width: 30ch;
-}
-
-.width-87 {
-  width: 87%;
 }
 
 .custom-font-size {
